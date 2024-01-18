@@ -6,12 +6,8 @@ WORKDIR /app
 
 COPY ${JAR_FILE} app.jar
 
-# Güvenlik güncellemeleri için OpenJDK sürümünü belirtin
-# Örneğin, OpenJDK 17.0.1 sürümünü kullanabilirsiniz
-# (Güncel bir sürümü kontrol edin)
 FROM openjdk:17.0.1
 
-# Gereksiz paketlerin kaldırılması
 RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
