@@ -22,7 +22,7 @@ spec:
         - name: MYSQL_USER
           value: root
         - name: MYSQL_PASSWORD
-          value: Admin123!
+          value: bugra
         - name: MYSQL_DATABASE
           value: test
 ---
