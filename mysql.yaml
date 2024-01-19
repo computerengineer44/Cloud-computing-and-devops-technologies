@@ -16,7 +16,7 @@ spec:
         image: bee4406/mysql:latest
         env:
         - name: MYSQL_ROOT_PASSWORD
-          value: Admin123!
+          value: bugra
         - name: MYSQL_DATABASE
           value: test        
         ports:
