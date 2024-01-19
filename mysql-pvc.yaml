@@ -7,5 +7,5 @@ spec:
     - ReadWriteOnce
   resources:
     requests:
-      storage: 5Gi # İhtiyacınıza göre ayarlayın
+      storage: 5Gi # İhtiyaca göre ayarlama işlemi
   storageClassName: standard # Gerekli storage class'a göre ayarlayın
